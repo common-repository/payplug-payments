@@ -1,0 +1,181 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PayPlug\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-31 13:38+0200\n"
+"POT-Revision-Date: Thu Oct 06 2016 14:09:26 GMT+0200 (CEST)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kulka Nicolas <contact@plateformewpdigital.fr>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js"
+
+#. Name of the plugin
+msgid "PayPlug Payments"
+msgstr ""
+
+#. Description of the plugin
+msgid "Accept payments from your WordPress site via PayPlug payment gateway."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "Kulka Nicolas, Aubert Mathieu"
+msgstr ""
+
+#: ../classes/plugin.php:23
+msgid "Settings"
+msgstr ""
+
+#: ../classes/plugin.php:69 ../classes/plugin.php:70
+msgid "PayPlug"
+msgstr ""
+
+#: ../classes/plugin.php:102
+msgid "Integrate online payment on your website in 1 minute."
+msgstr ""
+
+#: ../classes/plugin.php:103
+#, php-format
+msgid ""
+"<b>2,5% per transaction + 0,25 €</b>.<br/>Your client doesn't have to "
+"account to pay."
+msgstr ""
+
+#: ../classes/plugin.php:106
+msgid "Create free account"
+msgstr ""
+
+#: ../classes/plugin.php:108
+msgid "Learn more about PayPlug"
+msgstr ""
+
+#: ../classes/plugin.php:111
+msgid "PayPlug configuration"
+msgstr ""
+
+#: ../classes/plugin.php:117
+msgid "Once configured, 3 ways to generate a payment button PayPlug :"
+msgstr ""
+
+#: ../classes/plugin.php:120
+msgid ""
+"use the shortcode <br><code>[payplug price=\"xx.xx\" title_button=\"Buy\" "
+"class=\"payplug_buy_button my_class\" icon=\"glyphicon\" order_id=\"order_id\" "
+"custom_data=\"custom_data\" email=\"test@test.com\" first_name=\"firstname\" "
+"last_name=\"lastname\" ]</code>"
+msgstr ""
+
+#: ../classes/plugin.php:121
+msgid "use the Payplug widget"
+msgstr ""
+
+#: ../classes/plugin.php:122
+msgid ""
+"for developpers, use static method <br><code>&lt;?php PAYPLUG_Plugin::"
+"payplug_generate_payment_link( price, 'Button text', 'CSS class' , 'Icon', "
+"'Order id', 'Custom data', 'test@test.com', 'firstname', 'lastname' ); ?&gt;"
+"</code>"
+msgstr ""
+
+#: ../classes/plugin.php:147
+msgid "Login PayPlug"
+msgstr ""
+
+#: ../classes/plugin.php:154
+msgid "Password PayPlug"
+msgstr ""
+
+#: ../classes/plugin.php:161
+msgid "Payplug TEST mode ?"
+msgstr ""
+
+#: ../classes/plugin.php:168
+msgid "IPN (Instant Payment Notification) URL"
+msgstr ""
+
+#: ../classes/plugin.php:175
+msgid "Return URL"
+msgstr ""
+
+#: ../classes/plugin.php:182
+msgid "Allow Usage Tracking ?"
+msgstr ""
+
+#: ../classes/plugin.php:229 ../classes/plugin.php:482
+msgid ""
+"Allow Plateforme WP Digital to anonymously track how this plugin is used and "
+"help us make the plugin better."
+msgstr ""
+
+#: ../classes/plugin.php:281
+msgid "The login and password are mandatory"
+msgstr ""
+
+#: ../classes/plugin.php:296
+msgid "Your login and/or password PayPlug are incorrect"
+msgstr ""
+
+#: ../classes/plugin.php:304
+msgid "PayPlug error"
+msgstr ""
+
+#: ../classes/plugin.php:329
+msgid "Changes saved"
+msgstr ""
+
+#: ../classes/plugin.php:380
+msgid ""
+"Unable to generate the shortcode PayPlug, thank you to verify the "
+"configuration PayPlug"
+msgstr ""
+
+#: ../classes/plugin.php:410 ../classes/widgets/payplug_widget.php:43
+msgid "Buy"
+msgstr ""
+
+#: ../classes/plugin.php:483
+msgid "Allow"
+msgstr ""
+
+#: ../classes/plugin.php:484
+msgid "Do not allow"
+msgstr ""
+
+#: ../classes/plugin.php:500
+msgid "OpenSSL must be enabled to run PayPlug"
+msgstr ""
+
+#: ../classes/widgets/payplug_widget.php:8
+msgid "Add button payment PayPlug."
+msgstr ""
+
+#: ../classes/widgets/payplug_widget.php:61
+msgid "Button title"
+msgstr ""
+
+#: ../classes/widgets/payplug_widget.php:65
+msgid "Price"
+msgstr ""
+
+#: ../classes/widgets/payplug_widget.php:69
+msgid "CSS Class"
+msgstr ""
+
+#: ../classes/widgets/payplug_widget.php:73
+msgid "Icon"
+msgstr ""
